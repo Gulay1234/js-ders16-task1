@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(244, 244, 246);
+    padding-top: 100px;
+}
+.item{
+    width: 55vw;
+    height: 60vh;
+    margin: 0 auto;
+    display: flex;
+}
+.item-logo{
+    width: 27.5vw;
+    height: 60vh;
+}
+img{
+    width: 16vw;
+    height: 16vh;
+    margin-top: 12%;
+}
+#p1{
+    font-size: 27px;
+    font-family: sans-serif;
+    margin-left: 25px;
+    margin-top: -40px;
+}
+.item-login{
+    width: 27.5vw;
+    height: 60vh;
+    
+}
+.login{
+   width: 21vw;
+   height: 37vh;
+   background-color: white;
+   margin: 50px auto;
+   border-radius: 10px;
+   padding-top: 5px;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+input{
+    display: block;
+    width: 19vw;
+    padding: 17px;
+    margin: 15px auto;
+    border-radius: 5px;
+    border: 0.5px solid lightgray;
+}
+#button1{
+    width: 18vw;
+    text-align: center;
+    padding: 12px;
+    background-color: rgb(62, 62, 255);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-left: 20px;
+    font-size: 20px;
+}
+#button2{
+   margin-left: 140px;
+   margin-top: 15px;
+   border: none;
+   background-color: white;
+   color: blue;
+}
+#button2:hover{
+    text-decoration: underline;
+}
+hr{
+    width: 19vw;
+    margin: 25px auto;
+    border: 1px solid gainsboro;
+}
+#button3 {
+    width: 10vw;
+    padding: 14px;
+    border: none;
+    background-color: rgb(33, 194, 33);
+    color: white;
+    margin-left: 95px;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 7px;
+    margin-top: -2px;
+}
+#a{
+    color: white;
+    text-decoration: none;
+}
+#p2{
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: -25px;
+    font-size: 14px;
+}
+#a2{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+#a2:hover{
+    text-decoration: underline;
+}
+::placeholder{
+    color: rgb(178, 177, 177);
+    font-size: 17px;
+}
